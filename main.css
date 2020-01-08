@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .logo img {
+  height: 90px;
+  width: 90px;
+}
+/*# sourceMappingURL=main.css.map */

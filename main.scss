@@ -1,0 +1,17 @@
+
+
+
+
+header {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo {
+            img {
+                height: 90px;
+                width: 90px;
+            }
+        }
+    }
+}
