@@ -10,6 +10,10 @@ header .navbar {
           align-items: center;
 }
 
+header .navbar .logo {
+  display: block;
+}
+
 header .navbar .logo img {
   height: 90px;
   width: 90px;
