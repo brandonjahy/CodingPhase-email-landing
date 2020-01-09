@@ -22,6 +22,11 @@ a:hover {
   color: #14b2ba;
 }
 
+header {
+  height: 20vh;
+  width: 100%;
+}
+
 header .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,7 +105,7 @@ header .navbar .profile-icon {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -133,6 +138,7 @@ header .navbar .profile-icon {
 .main .text-block button {
   position: absolute;
   cursor: pointer;
+  color: #fff;
   width: 230px;
   height: 60px;
   left: -30px;
@@ -160,5 +166,18 @@ header .navbar .profile-icon {
 
 .main .video-block iframe {
   border-radius: 10px;
+}
+
+.mid-section {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+  -ms-grid-rows: (1fr)[7];
+      grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 /*# sourceMappingURL=main.css.map */

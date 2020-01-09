@@ -24,6 +24,8 @@ a {
 }
 
 header {
+    height: 20vh;
+    width: 100%;
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -74,7 +76,7 @@ header {
         grid-area: 1 / 1 / 2 / 6;
         justify-self: center;
         align-self: center;
-        font-size: 2.8rem;
+        font-size: 3rem;
         font-weight: 700;
     }
     .text-block {
@@ -96,6 +98,7 @@ header {
         button {
             position: absolute;
             cursor: pointer;
+            color: #fff;
             width: 230px;
             height: 60px;
             left: -30px;
@@ -119,4 +122,14 @@ header {
             border-radius: 10px;
         }
     }
+}
+
+.mid-section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
