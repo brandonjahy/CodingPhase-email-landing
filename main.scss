@@ -540,3 +540,14 @@ header {
             }
     }
 }
+.questions {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    .heading {
+        i {
+            display: inline-block;
+        }
+    }
+}
