@@ -376,8 +376,6 @@ header .navbar .profile-icon {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: 2 / 1 / 6 / 4;
-  -webkit-box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -444,8 +442,6 @@ header .navbar .profile-icon {
   -ms-grid-column: 7;
   -ms-grid-column-span: 3;
   grid-area: 2 / 7 / 6 / 10;
-  -webkit-box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -546,8 +542,6 @@ header .navbar .profile-icon {
   -ms-grid-column: 4;
   -ms-grid-column-span: 3;
   grid-area: 6 / 4 / 10 / 7;
-  -webkit-box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -614,8 +608,6 @@ header .navbar .profile-icon {
   -ms-grid-column: 10;
   -ms-grid-column-span: 3;
   grid-area: 6 / 10 / 10 / 13;
-  -webkit-box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -648,8 +640,6 @@ header .navbar .profile-icon {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: 10 / 1 / 14 / 4;
-  -webkit-box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -716,8 +706,6 @@ header .navbar .profile-icon {
   -ms-grid-column: 7;
   -ms-grid-column-span: 3;
   grid-area: 10 / 7 / 14 / 10;
-  -webkit-box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 2px 11px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -864,7 +852,6 @@ footer {
   width: 100%;
   background: #000;
   color: #fff;
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -873,5 +860,9 @@ footer {
           justify-content: center;
   -ms-flex-item-align: center;
       align-self: center;
+}
+
+footer .center {
+  margin-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
