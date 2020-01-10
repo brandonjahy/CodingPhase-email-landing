@@ -545,9 +545,60 @@ header {
     width: 100%;
     text-align: center;
     margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     .heading {
-        i {
-            display: inline-block;
+        grid-area: 1 / 2 / 2 / 6;
+        font-size: 2rem;
+        flex-direction: row;
+    }
+    .q1 {
+        grid-area: 2 / 1 / 4 / 5;
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: 200;
         }
     }
+    .q2 {
+        grid-area: 4 / 3 / 6 / 7;
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: 200;
+        }
+    }
+    .q3 {
+        grid-area: 6 / 1 / 8 / 5;
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: 200;
+        }
+    }
+}
+footer {
+    height: 10vh;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
