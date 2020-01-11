@@ -1,6 +1,6 @@
-@media (min-width: 768px) and (max-width: 1131px) {
+@media only screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 600px;
   }
   .container .main {
     display: -ms-grid;
@@ -33,12 +33,26 @@
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: 2 / 1 / 4 / 3;
-    text-align: center;
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    position: relative;
+  }
+  .container .main .text-block h4 {
+    position: absolute;
+    text-align: center;
+    top: -100px;
+    width: 450px;
+    left: -210px;
+  }
+  .container .main .text-block button {
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    left: -100px;
+    top: 50px;
   }
   .container .main .video-block {
     -ms-grid-row: 5;
@@ -46,6 +60,67 @@
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: 5 / 1 / 7 / 3;
+    margin-top: -70px;
+  }
+  .mid-section .first-list {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mid-section .first-list .course {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #14b2ba;
+    padding: 0 20px;
+  }
+  .mid-section .first-list .list {
+    font-size: 1.2rem;
+    padding: 0 20px;
+  }
+  .mid-section .first-list .list li {
+    margin-top: 33px;
+  }
+  .second-list {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .second-list .bundle {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: red;
+    padding: 0 20px;
+  }
+  .second-list .bundle-list {
+    font-size: 1.2rem;
+    padding: 0 20px;
+  }
+  .second-list .bundle-list li {
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=media.css.map */

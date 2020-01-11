@@ -1,11 +1,11 @@
 
-$desktop: "(min-width: 1132px)";
-$tablet: "(min-width: 768px) and (max-width: 1131px)";
-$phone: "(max-width: 767px)";
+$desktop: " only screen and (min-width: 1132px)";
+$tablet: " only screen and (min-width: 768px)";
+$phone: " only screen and (max-width: 767px)";
 
 @media #{$tablet} {
     .container {
-        max-width: 768px;
+        max-width: 600px;
         .main {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -22,13 +22,73 @@ $phone: "(max-width: 767px)";
             }
             .text-block {
                 grid-area: 2 / 1 / 4 / 3;
-                text-align: center;
                 justify-self: center;
                 align-self: center;
+                position: relative;
+                h4 {
+                    position: absolute;
+                    text-align: center;
+                    top: -100px;
+                    width: 450px;
+                    left: -210px;
+                }
+                button {
+                    position: absolute;
+                    width: 230px;
+                    height: 60px;
+                    left: -100px;
+                    top: 50px;
+                }
             }
             .video-block {
                 grid-area: 5 / 1 / 7 / 3;
+                margin-top: -70px;
             }
         }
+    }
+    .mid-section {
+
+        .first-list {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: center;
+            .course {
+                font-size: 1.5rem;
+                margin-top: 20px;
+                color: #14b2ba;
+                padding: 0 20px;
+            }
+            .list {
+                font-size: 1.2rem;
+                padding: 0 20px;
+                li {
+                    margin-top: 33px;
+                }
+            }
+        }
+    }
+    .second-list {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+        .bundle {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            color: red;
+            padding: 0 20px;
+        }
+        .bundle-list {
+            font-size: 1.2rem;
+            padding: 0 20px;
+            li {
+                margin-top: 30px;
+                }
+            }
     }
 }
